@@ -1,7 +1,7 @@
 .background-only{
     background: url(https://image.freepik.com/free-vector/graphic-design-geometric-wallpaper_52683-34399.jpg);
     background-position: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -118,3 +118,16 @@
         }
     }
 }
+
+.btn-out{
+    align-items: left;
+    width: 60px;
+    height: 30px;
+    background: red;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+            &:hover{
+                cursor: pointer;
+}}

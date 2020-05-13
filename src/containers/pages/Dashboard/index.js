@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 import './Dashboard.scss';
 import { connect } from 'react-redux'
 import { addDataToAPI, getDataFromAPI, updateDataAPI, deleteDataAPI } from '../../../config/redux/action';
+import {Link} from 'react-router-dom';
 
 
 class Dashboard extends Component{
@@ -26,7 +27,7 @@ class Dashboard extends Component{
         const data = {
             title: title,
             content: content,
-            date: new Date().getTime(),
+            date: new Date().toLocaleString(),
             userId: userData.uid
         }
 
@@ -80,6 +81,10 @@ class Dashboard extends Component{
         console.log('notes: ', notes);
         return(
             <div className="background-only">
+                <div className="logout">
+                <button className="btn-out">
+                    <Link to="/login">Keluar</Link></button>
+            </div>
             <div className="container">
                 <div className="input-form">
                     <input placeholder="title" className="input-title" value={title} onChange={(e) => this.onInputChange(e,'title')}/>
