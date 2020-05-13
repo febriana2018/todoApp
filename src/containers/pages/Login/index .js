@@ -26,7 +26,7 @@ class Login extends Component{
                 email: "",
                 password: ""
             })
-            history.push('/')
+            history.push('/home')
         }else {
             console.log('Login Failed')
         }

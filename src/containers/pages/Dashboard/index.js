@@ -3,6 +3,7 @@ import './Dashboard.scss';
 import { connect } from 'react-redux'
 import { addDataToAPI, getDataFromAPI, updateDataAPI, deleteDataAPI } from '../../../config/redux/action';
 
+
 class Dashboard extends Component{
     state = {
         title:'',
