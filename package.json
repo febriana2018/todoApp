@@ -2,7 +2,6 @@
   "name": "to-do-notes",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://febriana2018.github.io/todoApp", 
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -21,8 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build", 
+    "deploy": "firebase build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
