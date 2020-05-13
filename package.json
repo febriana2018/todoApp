@@ -2,7 +2,7 @@
   "name": "to-do-notes",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://febriana2018.github.io/todoApp",
+  "homepage": "https://febriana2018.github.io/todoApp", 
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

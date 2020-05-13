@@ -75,6 +75,7 @@ export const getDataFromAPI = (userId) => (dispatch) => {
                 })
                 dispatch({type: 'SET_NOTES', value: data})
                 resolve(snapshot.val())
+                //cek commit
             }
         });
     })
