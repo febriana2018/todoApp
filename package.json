@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "cypress": "^4.5.0",
     "firebase": "^7.14.2",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -20,9 +21,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "firebase build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"

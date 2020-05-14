@@ -38,9 +38,8 @@ class Register extends Component{
                         <input className="input" id="password" placeholder="Password" type="password" onChange={this.handleChangeText} value={this.state.password}/>
                         <Button onClick={this.handleRegisterSubmit} title="Register" loading={this.props.isLoading}/>
                         <Link to="/login">
-                            <Button title="Go to Login Page"/>
+                            <Button className="btn-log" title="Go to Login Page"/>
                         </Link>
-                        
                     </div>
                 </div>
                 <button>Go To Dashboard</button>
